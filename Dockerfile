@@ -10,5 +10,3 @@ RUN apt update && \
 EXPOSE 53/tcp 53/udp
 
 CMD ["/bin/sh", "-c", "/usr/bin/stubby -v $LOG_LEVEL -C /data/stubby.yml"]
-
-LABEL maintainer="Marco Kundt"
