@@ -1,4 +1,4 @@
-FROM bitnami/minideb:latest
+FROM debian:stable-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV LOG_LEVEL 0
